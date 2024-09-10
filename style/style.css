@@ -1,0 +1,170 @@
+.body {
+    background-color: #F2F2F2;
+    margin-left: 20px;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.productly-logo {}*/
+
+.right-navigation-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-menu {
+    margin-right: 30px;
+}
+
+.nav-horizontal-menu {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #2F281E;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    /* Spacing between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    /* Remove trailing space from last item*/
+}
+
+.nav-horizontal-menu ul li {
+    margin-right: 20px;
+    display: flex;
+}
+
+.buttons-login {
+    flex-wrap: wrap;
+}
+
+.btn-style {
+    background: #FF9900;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    width: 110px;
+    height: 46px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.btn-style:hover {
+    cursor: pointer;
+}
+
+.btn-sign-in {
+    background-color: white;
+    color: #173A56;
+    border: 1px groove #BCD0E5;
+}
+
+.container-section-1 {
+    /* All sections */
+    display: flex;
+    position: relative;
+    background-color: white;
+    margin: 30px auto 100px;
+    width: 80%;
+    height: 60vh;
+
+}
+
+.container-inside {
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.main-title {
+    /* The Design Thinking */
+    position: absolute;
+    width: 518px;
+    height: 108px;
+    left: 0px;
+    top: 82.5px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.first-information {
+    /* Tools, tutorials, de */
+    position: absolute;
+    width: 458px;
+    height: 95px;
+    left: 0px;
+    top: 220.5px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+}
+
+.btn-get-started {
+    /*buton Get Started*/
+    position: absolute;
+    width: 175px;
+    height: 53px;
+    left: -15px;
+    top: 360.5px;
+}
+
+.url-watch-video {
+    /* Watch the Video */
+    position: absolute;
+    height: 24px;
+    left: 205px;
+    right: 0%;
+    top: 360px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FF9900;
+}
+
+.people-jumping-image {
+    /* Image */
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
