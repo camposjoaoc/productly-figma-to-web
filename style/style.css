@@ -94,7 +94,7 @@ nav ul li:last-child {
     /* All sections */
     display: flex;
     position: relative;
-    background-color: white;
+    background-color: rgb(233, 231, 236);
     margin: 30px auto 100px;
     width: 80%;
     height: 60vh;
@@ -122,19 +122,23 @@ nav ul li:last-child {
     color: #2F281E;
 }
 
-.first-information {
-    /* Tools, tutorials, de */
-    position: absolute;
-    width: 458px;
-    height: 95px;
-    left: 0px;
-    top: 220.5px;
+.style-information {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     color: #544837;
+}
+
+.section-p-1 {
+    /* Tools, tutorials, de */
+    position: absolute;
+    width: 458px;
+    height: 95px;
+    left: 0px;
+    top: 220.5px;
+
 }
 
 .btn-get-started {
@@ -167,4 +171,39 @@ nav ul li:last-child {
     position: absolute;
     width: inherit;
     height: inherit;
+}
+
+.man-chat-image {
+    position: absolute;
+}
+
+.sub-title {
+    /* Design Professionals */
+    position: absolute;
+    width: 518px;
+    height: 108px;
+    left: 0px;
+    top: 27px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.third-title {
+    /* Accessory makers */
+    flex-wrap: wrap;
+    position: relative;
+    height: 29px;
+    left: 0%;
+    right: 68.52%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
 }
