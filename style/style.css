@@ -90,11 +90,11 @@ nav ul li:last-child {
     border: 1px groove #BCD0E5;
 }
 
-.container-section-1 {
+.container-section {
     /* All sections */
     display: flex;
     position: relative;
-    background-color: rgb(233, 231, 236);
+
     margin: 30px auto 100px;
     width: 80%;
     height: 60vh;
@@ -103,8 +103,13 @@ nav ul li:last-child {
 
 .container-inside {
     width: 50%;
+    height: inherit;
     flex-wrap: wrap;
     display: flex;
+}
+
+.container-inside-img {
+    justify-content: center;
 }
 
 .main-title {
@@ -123,12 +128,15 @@ nav ul li:last-child {
 }
 
 .style-information {
+    width: 100%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     color: #544837;
+    position: relative;
+
 }
 
 .section-p-1 {
@@ -174,22 +182,21 @@ nav ul li:last-child {
 }
 
 .man-chat-image {
+    /* Image */
     position: absolute;
+    width: auto;
+    height: inherit;
 }
 
 .sub-title {
     /* Design Professionals */
-    position: absolute;
-    width: 518px;
-    height: 108px;
-    left: 0px;
-    top: 27px;
-    padding: 10px;
+    width: 100%;
+    position: relative;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 54px;
+    margin: 0;
     color: #2F281E;
 }
 
@@ -206,4 +213,114 @@ nav ul li:last-child {
     font-size: 16px;
     line-height: 26px;
     color: #2F281E;
+    margin: 0;
+}
+
+.style-info-icon {
+    /* Orange icon style */
+    align-items: center;
+    display: flex;
+    margin: 50px;
+}
+
+.icon-text {
+    /* Orange icon style */
+    width: 90%;
+
+}
+
+.icon {
+    /* Orange icon style */
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.footer-container {
+    border-top: 2px solid #979797;
+    display: flex;
+    position: relative;
+    margin: 30px auto 100px;
+    width: 80%;
+    height: 30vh;
+}
+
+.footer-container-inside {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn-sign-up-now {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF9900;
+    border-radius: 4px;
+    width: 131px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    width: 25%;
+    align-content: center;
+}
+
+.footer-list {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2F281E;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-list li {
+    margin: 10px 0 10px 0;
+}
+
+.fourth-title {
+    font-family: "Gotham", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+    margin: 14% 0 14% 0;
+}
+
+.input-phoneNumber {
+    font-family: "Gotham", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #BCD0E5;
+    width: 98%;
+    height: 12%;
+    margin: 0% 0 2% 0;
+}
+
+.btn-sign-up-now {
+    margin: 3px 0 0 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-1 img {
+    margin: 0% 0 30% 0;
 }
