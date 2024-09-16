@@ -12,8 +12,6 @@
     align-items: center;
 }
 
-/*.productly-logo {}*/
-
 .right-navigation-menu {
     display: flex;
     align-items: center;
@@ -67,6 +65,7 @@ nav ul li:last-child {
 }
 
 .btn-style {
+    /* General Style for btn*/
     background: #FF9900;
     border-radius: 4px;
     font-family: "Poppins", sans-serif;
@@ -81,10 +80,12 @@ nav ul li:last-child {
 }
 
 .btn-style:hover {
+    /* Style btn */
     cursor: pointer;
 }
 
 .btn-sign-in {
+    /* Style btn sign in*/
     background-color: white;
     color: #173A56;
     border: 1px groove #BCD0E5;
@@ -94,11 +95,14 @@ nav ul li:last-child {
     /* All sections */
     display: flex;
     position: relative;
-
     margin: 30px auto 100px;
     width: 80%;
     height: 60vh;
+}
 
+.container-section-2 {
+    /* Section 2 config container */
+    height: 55vh;
 }
 
 .container-inside {
@@ -128,6 +132,7 @@ nav ul li:last-child {
 }
 
 .style-information {
+    /* General style for informations*/
     width: 100%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -136,7 +141,6 @@ nav ul li:last-child {
     line-height: 24px;
     color: #544837;
     position: relative;
-
 }
 
 .section-p-1 {
@@ -170,6 +174,11 @@ nav ul li:last-child {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+
+}
+
+.url-watch-video a {
+    /* Watch the Video auxiliary*/
     text-decoration-line: underline;
     color: #FF9900;
 }
@@ -188,6 +197,39 @@ nav ul li:last-child {
     height: inherit;
 }
 
+.section-2-container-inside {
+    /* Section 2 container config*/
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: inherit;
+    justify-content: center;
+}
+
+.section-2-all-cards {
+    /* Section 2 cards config*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.section2-card1,
+.section2-card2,
+.section2-card3,
+.section2-card4 {
+    /* Section 2 cards config*/
+    width: 20%;
+    text-align: left;
+    height: 20vh;
+}
+
+.section-2-button {
+    /* Section 2 config*/
+    margin: 1em 0 1em 0;
+}
+
 .sub-title {
     /* Design Professionals */
     width: 100%;
@@ -198,6 +240,10 @@ nav ul li:last-child {
     font-size: 36px;
     margin: 0;
     color: #2F281E;
+}
+
+.section-2-sub-title {
+    margin: 1em 0 1em 0;
 }
 
 .third-title {
@@ -214,6 +260,13 @@ nav ul li:last-child {
     line-height: 26px;
     color: #2F281E;
     margin: 0;
+}
+
+.section-2-third-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
 }
 
 .style-info-icon {
@@ -236,7 +289,16 @@ nav ul li:last-child {
     margin-right: 40px;
 }
 
+.icon-section-1 {
+    margin: 0 10px 0 0;
+}
+
+.icon-section-2 {
+    padding: 10px 0 10px 0;
+}
+
 .footer-container {
+    /* Size of footer*/
     border-top: 2px solid #979797;
     display: flex;
     position: relative;
@@ -246,6 +308,7 @@ nav ul li:last-child {
 }
 
 .footer-container-inside {
+    /* Size and configs of footer inside */
     width: 100%;
     height: inherit;
     display: flex;
@@ -254,6 +317,7 @@ nav ul li:last-child {
 }
 
 .btn-sign-up-now {
+    /* Style Btn Sign Up Now */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -270,11 +334,13 @@ nav ul li:last-child {
 .card-2,
 .card-3,
 .card-4 {
+    /* Size of cards inside footer*/
     width: 25%;
     align-content: center;
 }
 
 .footer-list {
+    /* Config footer list*/
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -286,11 +352,13 @@ nav ul li:last-child {
 }
 
 .footer-list a {
+    /* Config footer list*/
     text-decoration: none;
     color: inherit;
 }
 
 .footer-list li {
+    /* Config footer list*/
     margin: 10px 0 10px 0;
 }
 
@@ -305,6 +373,7 @@ nav ul li:last-child {
 }
 
 .input-phoneNumber {
+    /* Input Style*/
     font-family: "Gotham", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -317,10 +386,12 @@ nav ul li:last-child {
 }
 
 .btn-sign-up-now {
+    /* Btn Style*/
     margin: 3px 0 0 0;
     font-family: "Poppins", sans-serif;
 }
 
 .card-1 img {
+    /* IMG Style*/
     margin: 0% 0 30% 0;
 }
